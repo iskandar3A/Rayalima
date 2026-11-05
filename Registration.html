@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kos Rayalima</title>
+    <link rel="stylesheet" href="bismillah.css">
+    <link rel="icon" type="image/JPG" href="image/favicon.png">
+</head>
+<body>
+    <!--header-->
+    <header class="header-web">
+        <div class="site-header">
+            <a href="index.html" class="logo">
+                <img src="image/ryawebremove.png" alt="Logo kos">
+            </a>
+
+    <!--navigasi-->
+            <nav class="navigasi">
+                 <ul class="main-navigasi">
+                     <li><a href="index.html" class="Active">Beranda</a></li>
+                     <li><a href="OurStory.html">OurStory</a></li>
+                     <li><a href="booking.html">Room</a></li>
+                     <li><a href="Registration.html">Registration</a></li>
+                     <li><a href="Contact.html">Contact</a></li>
+                 </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="section-regis">
+        <h1>Room Registration</h1>
+        <p>Silakan isi formulir berikut untuk melakukan pemesanan kamar Kos Rayalima.</p>
+    </section>
+
+    <main class="main-regis">
+        <section id="pesanan">
+            <h2>Formulir Pemesanan Kamar</h2>
+            <form action="#" method="post">
+                <label for="nama">Nama lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
+
+                <label for="email">Alamat email</label>
+                <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+
+                <label for="telepon">Nomor telepon</label>
+                <input type="tel" id="telepon" name="telepon" placeholder="Contoh: 081234567890" required>
+
+                <label for="Kamar">Pilih Kamar</label>
+                <select id="Kamar" name="Kamar" required>
+                    <option value="">-- Pilih Kamar --</option>
+                    <option value="Standard">Standard Room - Rp1.000.000</option>
+                    <option value="Super">Super Room - Rp2.000.000</option>
+                    <option value="Deluxe">Deluxe Room - Rp3.000.000</option>
+                </select>
+
+                <label for="tanggal">Tanggal masuk</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+
+                <label for="durasi">Lama Sewa</label>
+                <select id="durasi" name="durasi" required>
+                    <option value="">-- Pilih lama sewa --</option>
+                    <option value="1 bulan">1 Bulan</option>
+                    <option value="6 bulan">6 Bulan</option>
+                    <option value="1 tahun">1 Tahun</option>
+                </select>
+
+                <p><strong>Metode pembayaran</strong></p>
+                <label class="pilihan"><input type="radio" name="pembayaran" value="transfer" required> Transfer bank</label>
+                <label class="pilihan"><input type="radio" name="pembayaran" value="e-wallet"> E-wallet</label>
+
+                <label for="catatan">Catatan (opsional)</label>
+                <textarea id="catatan" name="catatan" rows="3" placeholder="Tulis catatan jika ada"></textarea>
+
+                <label class="pilihan"><input type="checkbox" id="setuju" name="setuju" required> Saya memastikan data pesanan sudah benar.</label>
+
+                <button type="submit">Kirim Pendaftaran Sewa</button>
+                <button type="reset" class="reset">Bersihkan Form</button>
+            </form>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer-kos">
+    <div class="footer-awal">
+        <div class="footer-desk">
+        <a href="uts_iskandar.html" class="logo-footer">
+        <img src="image/logoremove.png" alt="logo-foot">
+        </a>
+        <p>hunian yang cocok bagi kamu yang mencari tempat tinggal nyaman untuk beristirahat dan beraktivitas.</p>
+    </div>
+    <div class="footer-nav">
+        <h3>Navigasi</h3>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+                    <li><a href="OurStory.html">OurStory</a></li>
+                    <li><a href="booking.html">Room</a></li>
+                    <li><a href="Registration.html">Registration</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="footer-contact">
+        <h3>Hubungi Kami</h3>
+        <p>Informasi dan pemesanan kamar Kos Rayalima</p>
+        <a href="Contact.html" class="footer-button">Our Contact</a>
+    </div>
+    <div class="footer-copy">
+        <p>&copy; 2026 kos Rayalima</p>
+    </div>
+    </footer>
+</body>
+</html>
